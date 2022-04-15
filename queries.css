@@ -1,0 +1,162 @@
+@media screen and (max-width: 1280px) {
+  .card {
+    height: 90%;
+  }
+
+  .rated {
+    width: 100%;
+  }
+
+  #rated-1,
+  #rated-2 {
+    left: 0rem;
+  }
+  .left-column {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .rated {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+  }
+
+  .icon-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phrase-container {
+    flex: 1;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-star {
+    margin: 0;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
+  .grid-area {
+    grid-template-rows: 15rem;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .opinions {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 40%;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .rated {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+  }
+
+  .icon-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phrase-container {
+    flex: 1;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-star {
+    margin: 0;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
+  .grid-area {
+    grid-template-rows: 16rem;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .opinions {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 40%;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .grid-area {
+    grid-template-areas:
+      "left-column left-column"
+      "right-column right-column"
+      "opinions opinions";
+    grid-template-rows: 15rem;
+  }
+
+  .opinions {
+    margin-top: 2rem;
+  }
+
+  .left-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .main-container {
+    padding: 3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-area {
+    grid-template-rows: 20rem;
+    gap: 0rem;
+  }
+  .main-container {
+    padding: 1rem 1rem;
+  }
+}
